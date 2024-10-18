@@ -1,0 +1,27 @@
+#Lists 
+
+justice_league=["Superman","Batman","Wonder women","Flash","Aquaman","Green Lantern"]
+print("1. Total members in justice_league :",len(justice_league))
+print()
+print('Before the adding in list:',justice_league)
+print()
+justice_league.append('Batgirl')
+justice_league.append('Nightwing')
+print('2. After the recruitment of the members:',justice_league)
+justice_league.remove('Wonder women')
+print()
+justice_league[0]='Wonder women'
+print('3. Now the wonder women is now the leader:',justice_league)
+print()
+justice_league[3]='Superman'
+justice_league[4]='Aquaman'
+print(f'4. Sperated the both flash and aquaman :{justice_league}')
+print()
+justice_league=['Cybrog',"Shamzam","Hawkgirl","Martin Manhunter","Green arrow"]
+print(f"5. New list is created by power of Superman:{justice_league}")
+print()
+justice_league.sort()
+new_leader=justice_league[0]
+print(f"6. The sorted values {justice_league}")
+print()
+print(f"The new leader :{new_leader}")
