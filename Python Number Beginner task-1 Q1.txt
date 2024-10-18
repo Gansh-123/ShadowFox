@@ -1,0 +1,5 @@
+#Number in Beginners task
+def format_actual(number):
+    return format(number,'o')
+answer=format_actual(145)
+print(f'The answer is: {answer}')    
