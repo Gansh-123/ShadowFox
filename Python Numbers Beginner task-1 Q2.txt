@@ -1,0 +1,3 @@
+r=84
+circular_pond_area=22/7*r**2
+print(f'Area of the circular pond is :{int(circular_pond_area)}')
