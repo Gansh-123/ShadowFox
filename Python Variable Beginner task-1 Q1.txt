@@ -1,0 +1,3 @@
+# First task
+pi=22/7
+print(f'The data type of pi is :{type(pi)}')
