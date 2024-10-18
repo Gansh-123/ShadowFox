@@ -1,0 +1,9 @@
+# first task
+
+for= 4
+
+#It will shows the invalid syntax 
+
+#Reason behind the behaviour :
+
+#In Python, "for" is a reserved keyword used for loops. Normally, using a reserved keyword as a variable name would raise a SyntaxError. However, Python allows it in this case due to its dynamic typing and lexical scoping.
