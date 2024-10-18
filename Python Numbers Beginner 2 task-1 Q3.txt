@@ -1,0 +1,10 @@
+#Numbers Q3:
+
+def conversation(Time):
+    convert=Time*60
+    return convert
+converted_value=conversation(7)    
+
+distance_covered=490
+speed=int(distance_covered/converted_value)
+print(f"The speed in the (meter/sec): {speed}")
