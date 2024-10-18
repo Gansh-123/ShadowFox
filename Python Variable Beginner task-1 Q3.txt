@@ -1,0 +1,6 @@
+# First task variable 
+Principal_amount=int(input('Enter the Principal amount : '))
+Rate_of_interest=int(input('Enter the rate of interest: '))
+time_period=int(3)
+simple_interest=(Principal_amount*Rate_of_interest*time_period)/100
+print(f"Simple interest for {time_period} years is: {simple_interest}")
