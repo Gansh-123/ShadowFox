@@ -1,0 +1,24 @@
+import random
+least_rolls=20
+six_count=0
+one_count=0
+six_in_arow=0
+arr=[]
+for i in range(least_rolls):
+    value=random.randint(1,6)
+    if value==6:
+        six_count+=1
+        arr.append(value)
+    elif value==1:
+        one_count+=1
+        arr.append(value)
+    elif value==6 and previous_roll==6:
+        six_in_arow+=1
+    previous_roll=value
+
+print('The total count of 6 is : ',six_count)
+print("The total count of 1 is : ",one_count)
+print("The number of time 6 in a row : ",six_in_arow)
+    
+        
+            
