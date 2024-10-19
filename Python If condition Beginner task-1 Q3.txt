@@ -1,0 +1,22 @@
+#if condition 
+
+Australia=['Sydney','Melbourne','Bisbane','Perth']
+Uae=['Dubai',"Abu Dhabi","Sharjah","Ajman"]
+India=["Mumbai","Bangalore","Chennai","Delhi"]
+city_name=input("Enter your first city name: ")
+city_name1=input("Enter your second city name ")
+def get_name(city):
+    if city in Australia:
+        return "Australia"
+    elif city in Uae:
+        return  "Uae"   
+    elif city in India:
+        return "India"
+    else:
+        return "unknown"    
+country_name1=get_name(city_name)   
+country_name2=get_name(city_name1)
+if country_name1==country_name2 and country_name1!='unknown':
+    print(f'Both cities are in same {country_name1}')
+else :
+    print(f"Both are not in same {country_name1} and {country_name2}")
