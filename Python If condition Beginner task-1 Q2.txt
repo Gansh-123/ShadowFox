@@ -1,0 +1,16 @@
+#if condition 
+
+Australia=['Sydney','Melbourne','Bisbane','Perth']
+Uae=['Dubai',"Abu Dhabi","Sharjah","Ajman"]
+India=["Mumbai","Bangalore","Chennai","Delhi"]
+city_name=input("Enter your city name: ")
+for i in range(len(Australia)):
+    if Australia[i]==city_name:
+        print('It is found in Australia')
+for i in range(len(Uae)):
+    if Uae[i]==city_name:
+        print('It is found in Uae')
+for i in range(len(India)):
+    if India[i]==city_name:
+        print('It is found in India')
+        
